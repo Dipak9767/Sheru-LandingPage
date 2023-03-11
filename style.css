@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@300&family=Faustina:wght@300&family=Fragment+Mono&family=Golos+Text&family=Hind:wght@700&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box !important;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    font-family: 'Hind';
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.Nav-Links {
+    font-weight: 500 !important;
+    font-family: 'Golos Text' !important;
+    color: black;
+    font-size: large;
+    margin: 0 10px !important;
+}
+
+.Nav-Links span {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+}
+
+.box1 {
+    position: relative;
+}
+
+.box1-text {
+    color: white !important;
+    position: absolute !important;
+    top: 25% !important;
+    left: 15% !important;
+    width: 30% !important;
+}
+
+.box1-text h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.text h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.text p {
+    font-size: larger;
+}
+
+.box2 .card {
+    border: none !important;
+}
+
+.box2 .card h5 {
+    font-weight: 700;
+}
+
+.box2 .card p {
+    line-height: 30px;
+    font-size: medium;
+}
+
+.card-btn {
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    background-color: black;
+    padding: 10px 15px;
+}
+
+.footer-btn {
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    padding: 15px 20px;
+    margin: 0 1rem;
+}
+
+.box3 {
+    position: relative;
+}
+
+.box3-text {
+    color: white !important;
+    position: absolute !important;
+    top: 0% !important;
+    left: 15% !important;
+    width: 80% !important;
+}
+
+.box4 .card {
+    border: none !important;
+    border-radius: none !important;
+}
+
+.box4 .card h2 {
+    font-size: 1.5rem !important;
+}
+
+.box4 .card .card-body {
+    padding: 1rem 0 !important;
+}
+
+.line {
+    border: 1px solid #404545;
+    width: 10px;
+}
+
+footer a {
+    font-size: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .box1-text h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+   .Nav-Links{
+    font-size: 12px !important;
+   }
+    .box1-text {
+        width: 40% !important;
+    }
+    .box1-text p{
+        font-size: 10px !important;
+    }
+    .text h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .text p {
+        font-size: medium;
+    }
+
+    .box3 h6 {
+        font-size: 15px !important;
+    }
+
+    .box4 .card h2 {
+        font-size: 1rem !important;
+    }
+    .box4 .card p {
+        font-size: 10px !important;
+    }
+    footer h2{
+        font-size: .9rem !important;
+    }
+    .footer-btn{
+        font-size: 10px !important;
+        padding: 8px;
+    }
+    footer h4{
+        font-size: 12px !important;
+    }
+    footer a{
+        font-size: 8px;
+    }
+}
