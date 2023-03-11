@@ -4,7 +4,7 @@ TITLE : LANDING PAGE
 
 DESCRIPTION :
 
-- It is stand alone WebPage.
+- It is a stand alone WebPage.
 - It is responsive for all devices.
 
 TECHSTACK :
